@@ -10,7 +10,6 @@
 */
 div {
 	display: flex;
-	text-shadow: 1px 30px #FF0000;
 	justify-content: center;
 	align-items: center;
 	border: 3px solid #ccc;
@@ -32,6 +31,7 @@ p {
 
 #link2 {
 	background-color: #aa0;
+	text-shadow: 1px 5px #FF0000;
 }
 
 #link3 {

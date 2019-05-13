@@ -1,0 +1,31 @@
+body {
+	font-family: verdana;
+	font-size: 12pt;
+}
+
+#wrapper {
+	margin: auto;
+	padding: 5px 10px;
+	border: 2px solid #000;
+	width: 550px;
+	height: auto;
+}
+
+header {
+	border-bottom: 10px solid #000;
+}
+
+header > h1 {
+	margin: 0 0 10px 0;
+	padding-left: 10px;
+}
+
+header > h4 {
+	margin: 0;
+	padding-left: 10px;
+}
+
+table {
+	width: 550px;
+	height: auto;
+}
