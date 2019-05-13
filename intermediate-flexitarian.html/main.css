@@ -1,6 +1,11 @@
 body {
 	font-family: verdana;
 	font-size: 12pt;
+	box-sizing: border-box;
+}
+
+.pt10 {
+	font-size: 10pt;
 }
 
 #wrapper {
@@ -11,8 +16,9 @@ body {
 	height: auto;
 }
 
-header {
+.bb10 {
 	border-bottom: 10px solid #000;
+	padding-bottom: 5px;
 }
 
 header > h1 {
@@ -25,7 +31,36 @@ header > h4 {
 	padding-left: 10px;
 }
 
+#wrapper > p {
+	font-weight: bold;
+	text-align: right;
+	padding-right: 60px;
+}
+
 table {
 	width: 550px;
-	height: auto;
+	height: auto;	
+}
+
+/*table * {border: 1px solid #000;}*/
+
+.bold {
+	font-weight: bold;
+}
+
+.pad1st {
+	padding-left: 30px;
+}
+
+ul {
+	text-align: center;
+}
+
+ul li {
+	/*display: inline;*/
+	font-size: 10pt;
+}
+
+ul li:first-child {
+	
 }
